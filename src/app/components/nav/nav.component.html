@@ -1,0 +1,24 @@
+<nav class="absolute w-20 min-h-screen flex flex-col justify-between text-white bg-black rounded-br-lg rounded-tr-lg lg:hover:w-[10%] hover:w-[20%] duration-200 ">
+    <div class=" flex flex-row h-20  items-center overflow-hidden  bg-teal-600">
+      <img class="rounded-full w-12 h-12 mx-4" src="/assets/logo.png" alt="gif station logo">
+      <span class="text-white"> Gif Station </span>
+    </div>
+    <ul class=" h-[90%] flex flex-col justify-start [&>*]:py-5" >
+        <li class="cursor-pointer hover:bg-teal-600 overflow-hidden flex flex-row items-center"
+        routerLinkActive="active"
+        [routerLink]="['/gif/gifphy']" 
+      >
+        <img src="/assets/gifphy.svg" alt="gif web logo" class="w-10 h-10 mx-6"/>
+        <span> Gifphy </span>
+      </li>
+
+      <li class="cursor-pointer hover:bg-teal-600 overflow-hidden flex flex-row items-center"
+        routerLinkActive="active"
+        [routerLink]="['/gif/tenor']"
+      >
+      <img src="/assets/tenor.png" alt="gif web logo" class="w-10 h-10 mx-6"/>
+      <span> Tenor </span>
+      </li>
+    </ul>
+</nav>
+

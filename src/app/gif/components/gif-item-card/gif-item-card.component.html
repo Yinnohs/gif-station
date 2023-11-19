@@ -1,0 +1,12 @@
+<div class="max-w-xs rounded-md hover:animate-rotateBackground duration-200 ease-in-out hover:bg-gradient-to-r 
+hover:from-teal-200 hover:via-teal-500 hover:to-teal-900 hover:p-1 hover:shadow-lg" 
+ngxClipboard [cbContent]="gifSource" (click)="showCopyText()">
+  <div class="w-full rounded overflow-hidden bg-black duration-200 ease-in-out shadow-md">
+    <img class="w-full" src="{{gifSource}}" alt="Sunset in the mountains">
+    <div class="text-center">
+      <div class="font-bold text-xl mb-2 text-teal-300">{{gifName}}</div>
+    </div>
+  </div>    
+</div>
+
+  
