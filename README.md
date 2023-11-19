@@ -1,27 +1,36 @@
-# GifApp
+# GIF STATION
+## Description
+Welcome to the best gif centralizer<br/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This app have the only porpouse of letting the user  finds gif from different sources 😮 and letting the user use this gif by drag and drop on your favorite application.🧑
 
-## Development server
+## Application tested
+Discord (you can use this app with discord but it have it's difficulties)❌<br/>
+Microsoft Teams ✔️
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+Drag & drop ✔️<br/>
+Gifphy gifs (by default finds by the word random) ✔️ <br/>
+Tenor gifs (by default finds by the word random) ✔️ <br/>
+Web app ✔️ <br/>
+Search by query ❌ <br/>
+Desktop app ❌ <br/>
+Desktop app open by button command press ❌ <br/>
 
-## Code scaffolding
+## How to run the development enviroment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Web App
+1.- Run the next command to donwload the node_modules of the proyect
+```
+ npm i
+```
+2.- add the corresponding api keys and enviroment variables creating an .env file with the next variables
+```
+ GIFPHY_API_KEY= gifphy api key
+ TENOR_API_KEY= tenor api key
+ TENOR_CLIENT_KEY = tenor client key
+```
+3.- Run the application using the next command
+```
+ npm run start
+``` 
